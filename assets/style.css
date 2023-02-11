@@ -1,0 +1,280 @@
+:root{
+    --rubro-primario: #8E2424;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --branco-primario: #fff;
+    --azul-escuro: #101828;
+    --cinza-alfa: #EAECF0;
+    --fonte: 'Inter', sans serif;
+    --rubro_transparente: rgba(142, 36, 36, 0.05);
+}
+
+body{
+    font-family: var(--fonte);
+    margin: 0;
+}
+
+.container__cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 6em;
+    flex-grow: 0;
+}
+
+.container__logo{
+    display: flex;
+    align-items: center;
+}
+
+.container__texto{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cinza-escuro);
+    padding: 0 .5em;
+}
+
+.logo{
+    width: 27px;
+    height: 26.99px;
+}
+
+.container__menu__lista{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 .5em;
+    margin: 0 4em;
+}
+
+.container__menu__lista a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 .8em;
+    color: var(--cinza-claro);
+}
+
+.container__menu{
+    flex-grow: 2;
+    display: flex;
+}
+
+.container__login a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 1em;
+}
+
+.btn-open{
+    color: var(--cinza-claro);
+}
+
+.btn-open:hover{
+    color: var(--cinza-escuro);
+}
+
+.botton__login{
+    background-color: var(--rubro-primario);
+    color: var(--branco-primario);
+    padding: 10px 18px;
+    border-radius: 8px;
+    gap: 8px;
+    border-style: none;
+}
+
+.botton__login:hover{
+    background-color: #6b1414;
+}
+
+.container__principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.container__chamada{
+    color: var(--rubro-primario);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.container__titulo{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    line-height: 60px;
+    margin-top: 0;
+}
+
+.container__subtitulo{
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 16em;
+}
+
+.item__titulo{
+    color: var(--rubro-primario);
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0;
+}
+
+.item__subtitulo{
+    color: var(--azul-escuro);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.item__informacao{
+    color: var(--cinza-claro);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container__destaques{
+    display: flex;
+    justify-content: center;
+    padding: 0 6em;
+    gap: 25px;
+}
+
+.destaques__item{
+    width: 25%;
+}
+
+.vagas__texto{
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    margin: 0 45%;
+    border-radius: 5rem;
+    line-height: 20px;
+}
+
+.vagas__titulo{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.container__vagas__chamada{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 96px 0 30px 0;
+}
+
+.banner__vagas{
+    margin: 1em 6em;
+    border-radius: .3rem;
+}
+
+.container__vagas__descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 8em;
+    margin: 0 35vh;
+}
+
+.container__vagas__descricao a{
+    text-decoration: none;
+}
+
+.section__titulo{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--azul-escuro);
+}
+
+.vagas__descricao__item{
+    border: 1.5px solid var(--cinza-alfa);
+    margin-bottom: 1em;
+    padding: 0.5rem 1em;
+    border-radius: 1rem;
+}
+
+.vagas__descricao__item:hover{
+    background-color: #f1f1f1;
+}
+
+.vagas__flex{
+    display: flex;
+    gap: 2rem;
+}
+
+.container__depoimento{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 6rem;
+}
+
+.container__depoimento__julia{
+    background-color: var(--rubro_transparente);
+    padding: 3rem;
+    margin: 0 6em;
+    border-radius: 16px;
+}
+
+.quote{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.citacao{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 2rem 3rem 2rem;
+}
+
+.nome{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.profissao{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.container__rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#F9FAFB;
+    padding: 5em 0;
+}
+
+.titulo__rodape{
+    font-size: 36px;
+    margin: 0;
+}
+
+.subtitulo__rodape{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.container__formulario{
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    padding: 10px 5px 30px 5px;
+}
+
+.formulario__case{
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    flex-grow: 0.18;
+    padding: 0 15px;
+}

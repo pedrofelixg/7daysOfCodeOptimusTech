@@ -6,7 +6,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Optimus Tech**
 | :label: Tecnologias | HTML e CSS
-| :rocket: URL         | 
+| :rocket: URL         | https://7days-of-code-optimus-tech.vercel.app/
 | :fire: Desafio     | **7 Days Of Code - Alura**
 
  ## **Contatos e Links interessantes**
@@ -31,10 +31,10 @@ Como o proposito dos 7 Days of Code é ter uma semana de imersão em um projeto 
 > **Dia 01**<br> Construção do Header da Página, utilizando os principais conceitos do flex-box.<br>
 > **Dia 02**<br> Desenvolver a primeira seção da página, que também pode ser chamada de cabeçalho. <br>
 > **Dia 03**<br> Desenvolver a seção de estatísticas da empresa divulgando os principais resultados de seu trabalho.<br>
-> **Dia 04**<br>
-> **Dia 05**<br>
-> **Dia 06**<br>
-> **Dia 07**<br>
+> **Dia 04**<br> Desenvolver a seção de "Estamos à procura de novos talentos" com foco no tratamento de imagem.<br>
+> **Dia 05**<br> Desenvolver a seção de vagas, descrição e uso do flex, também criei tags "a" para futuramente implementar uma página de formulário para submeter vagas. <br>
+> **Dia 06**<br> Penúltimo desafio é criar uma seção para depoimentos de desenvolvedores que trabalham na OpitumsTech.<br>
+> **Dia 07**<br> Seção de rodapé e um formulário de submissão de uma "newsletter".
 
 # **Prévia do Site**
 ![imagem prévia do site](./img/DesktopPreview.png#vitrinedev)

@@ -36,5 +36,7 @@ Como o proposito dos 7 Days of Code é ter uma semana de imersão em um projeto 
 > **Dia 06**<br> Penúltimo desafio é criar uma seção para depoimentos de desenvolvedores que trabalham na OpitumsTech.<br>
 > **Dia 07**<br> Seção de rodapé e um formulário de submissão de uma "newsletter".
 
+A medida que o projeto evoluir em testes futuros de habilidade de código irei informar as mudanças numa aba própria chamada **updates**.
+
 # **Prévia do Site**
-![imagem prévia do site](./img/DesktopPreview.png#vitrinedev)
+![prévia do site](https://github.com/pedrofelixg/7daysOfCodeOptimusTech/raw/main/img/DesktopPreview.png#vitrinedev)

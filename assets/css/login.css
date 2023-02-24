@@ -1,0 +1,81 @@
+@import url(/assets/css/style.css);
+
+body{
+    background-image: url(/img/backgoundLogin.jpg);
+    background-size: 100%;
+}
+
+.loginForm{
+    background-color: var(--cinza-alfa);
+    display: flex;
+    flex-direction: column;
+    padding: 0 10rem;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    border-radius: 10px;
+    width: 25vw;
+    position: relative;
+    margin: 4.5em auto;
+}
+
+.login__title{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.login__email, .login__senha{
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #senha{
+    padding: .75rem .50em;
+    margin-bottom: 15px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 5px;
+}
+
+.login__conectado{
+    display: flex;
+}
+
+.label__conectado{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#keep__conect{
+    border: 1px solid var(--cinza-claro);
+    order: -1;
+}
+
+.botton__login{
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 3rem;
+}
+
+.alternativos__titulo{
+    font-size: 22px;
+}
+
+.methods{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    text-align: center;
+}
+.methods a{
+    color: var(--rubro-primario);
+    border: 1px solid var(--cinza-claro);
+    border-radius: 8px;
+    padding: .85rem;
+    flex-grow: 1;
+}
+
+.item__ropade{
+    color: white;
+    text-align: center;
+}

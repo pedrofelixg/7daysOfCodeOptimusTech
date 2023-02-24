@@ -5,7 +5,7 @@
 | :placard: | Vitrine.Dev |     
 | -------------  | --- |
 | :sparkles: Nome        | **Optimus Tech**
-| :label: Tecnologias | HTML e CSS
+| :label: Tecnologias | HTML, CSS, Javascript
 | :rocket: URL         | https://7days-of-code-optimus-tech.vercel.app/
 | :fire: Desafio     | **7 Days Of Code - Alura**
 
@@ -39,6 +39,10 @@ Como o proposito dos 7 Days of Code é ter uma semana de imersão em um projeto 
 ## **Implementações Particulares (UPDATES)**
 
 - Adicionei um comportamento ao botão "Cadastrar" no Rodapé para avisar que o e-mail foi cadastrado na Newsletter de candidaturas, espero em breve criar um sistema de verificação do formulário e armazenamento dos e-mails cadastrados.
+- Adicionei uma página de login, que vai conter um validador de formulário com Javascript.
 
 # **Prévia do Site**
 ![prévia do site](https://github.com/pedrofelixg/7daysOfCodeOptimusTech/raw/main/img/DesktopPreview.png#vitrinedev)
+
+## **Tela de Login**
+![prévia da tela de login da página](/img/loginPreview.png)

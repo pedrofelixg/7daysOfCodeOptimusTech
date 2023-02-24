@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Optimus Tech</title>
+
+    <link rel="imagem icon" href="/img/worldwide 1 (Traced).png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/login.css">
+</head>
+<body>
+    <form class="loginForm">
+        <h1 class="login__title">LOGIN</h1>
+        <span class="login__email">
+            <label for="email" class="label__email">E-Mail</label>
+            <input type="email" placeholder="e-mail" id="email" required>
+        </span>
+        <span class="login__senha">
+            <label for="senha" class="label__senha">Senha</label>
+            <input type="password" placeholder="sua senha" id="senha" required>
+        </span>
+        <span class="login__conectado">
+            <label for="keep__conect" class="label__conectado">Mantenha-me Conectado</label>
+            <input type="checkbox" id="keep__conect">
+        </span>
+
+        <span class="logins__alternativos">
+            <h2 class="alternativos__titulo">... ou acesse com</h2>
+            <div class="methods">
+                <a href="#" class="login__facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="login__google"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="login__twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="login__linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </span>
+
+        <button type="submit" class="botton__login">Entrar</button>
+    </form>
+    <footer>
+        <p class="item__ropade">© 2022 OptimusTech. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/eb02f93617.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -19,6 +19,11 @@ body{
     margin: 4.5em auto;
 }
 
+.logo__title{
+    display: flex;
+    gap: 12px;
+}
+
 .login__title{
     font-weight: 600;
     font-size: 40px;
@@ -38,6 +43,17 @@ body{
 
 .login__conectado{
     display: flex;
+    align-items: center;
+}
+
+.esqueceu__senha{
+    text-decoration: none;
+    text-decoration: underline;
+
+    color: var(--rubro-primario);
+    font-size: 14px;
+    margin-left: 5rem;
+    font-weight: 500;
 }
 
 .label__conectado{
@@ -78,4 +94,12 @@ body{
 .item__ropade{
     color: white;
     text-align: center;
+}
+
+.LoginError__mensagem{
+    color: var(--cinza-alfa);
+    background-color: var(--rubro-primario);
+    border-radius: 5px;
+    border: 1px solid rgb(51, 0, 0);
+    padding: 5px 3px;
 }

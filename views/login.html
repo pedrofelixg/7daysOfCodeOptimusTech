@@ -16,18 +16,22 @@
 </head>
 <body>
     <form class="loginForm">
-        <h1 class="login__title">LOGIN</h1>
+        <div class="logo__title">
+            <h1 class="login__title">LOGIN</h1>
+            <img src="../img/worldwide 1 (Traced).svg" alt="logo da página">
+        </div>
         <span class="login__email">
             <label for="email" class="label__email">E-Mail</label>
-            <input type="email" placeholder="e-mail" id="email" required>
+            <input type="email" placeholder="e-mail" id="email">
         </span>
         <span class="login__senha">
             <label for="senha" class="label__senha">Senha</label>
-            <input type="password" placeholder="sua senha" id="senha" required>
+            <input type="password" placeholder="sua senha" id="senha">
         </span>
         <span class="login__conectado">
             <label for="keep__conect" class="label__conectado">Mantenha-me Conectado</label>
             <input type="checkbox" id="keep__conect">
+            <a href="#" class="esqueceu__senha"><p>Esqueceu a Senha?</p></a>
         </span>
 
         <span class="logins__alternativos">
@@ -40,11 +44,17 @@
             </div>
         </span>
 
-        <button type="submit" class="botton__login">Entrar</button>
+        <div class="loginError">
+            <p id="mensagem__error"></p>
+            <!-- class="LoginError__mensagem" -->
+        </div>
+
+        <button type="submit" class="botton__login" id="btn__login">Entrar</button>
     </form>
     <footer>
         <p class="item__ropade">© 2022 OptimusTech. Todos os direitos reservados.</p>
     </footer>
     <script src="https://kit.fontawesome.com/eb02f93617.js" crossorigin="anonymous"></script>
+    <script src="/assets/loginScript.js"></script>
 </body>
 </html>

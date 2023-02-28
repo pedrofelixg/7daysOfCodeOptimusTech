@@ -1,15 +1,20 @@
 const BOTAO = document.getElementById("newsletter");
-const EMAIL = document.getElementById("email__sub").value;
 
 function assinarNewsletter() {
-    var regEmail = "/\S+@\S+\.\S+"; 
-    //como passo isso pra regex?
+    const email = document.getElementById("emailsub");
+    const emailValue = email.value;
 
-    if(EMAIL == regEmail) {
+    if(emailValue.includes('@')) {
         alert("Cadastro Confirmado");
     } else {
         alert("Cadastro não confirmado, verifique seu e-mail");
     }
+
+    /*
+    nota importante desse código: o verificador de e-mail aqui é uma gambiarra para
+    manter o comportamento que eu espero quando implementar a RegEx corretamente.
+    Vou tentar gerar um código que guarde os valores corretos em logs de JSON.
+    */
 }
 
 BOTAO.addEventListener("click", assinarNewsletter);

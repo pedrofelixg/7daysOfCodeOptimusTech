@@ -1,4 +1,6 @@
+<div align="center">
 <img src="./img/pedro_memoji.png" width="100px" alt="logo memoji da página"><br>
+</div>
 
 # **Página da Optimus Tech - 7daysOfCode**
 
@@ -10,7 +12,7 @@
 | :fire: Desafio     | **7 Days Of Code - Alura**
 
  ## **Contatos e Links interessantes**
- <div>
+ <div align="center">
    <a href="mailto:pedro.viniciusacm@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
    <a href="https://wa.me/5581992874343" target="blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
    <a href="https://www.behance.net/pedrofelixg" target="_blank"><img src="https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white"></a>
@@ -40,6 +42,7 @@ Como o proposito dos 7 Days of Code é ter uma semana de imersão em um projeto 
 
 - Adicionei um comportamento ao botão "Cadastrar" no Rodapé para avisar que o e-mail foi cadastrado na Newsletter de candidaturas, espero em breve criar um sistema de verificação do formulário e armazenamento dos e-mails cadastrados.
 - Adicionei uma página de login, que vai conter um validador de formulário com Javascript.
+- A verificação de e-mail no rodapé e na página de login está seguindo uma regex, conforme pode ser visto no repositório.
 
 # **Prévia do Site**
 ![prévia do site](https://github.com/pedrofelixg/7daysOfCodeOptimusTech/raw/main/img/DesktopPreview.png#vitrinedev)

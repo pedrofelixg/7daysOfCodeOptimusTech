@@ -5,7 +5,9 @@ function validadorEmail(){
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;
 
-    if(email.includes("@") & senha.length >= 8) {
+    const regex = RegExp(/\S+@\S+\.\S+/);
+
+    if(regex.test(email) & senha.length >= 8) {
         alert("Login Conectado");
     } else {
         alert("Erro no processamento da requisição");
